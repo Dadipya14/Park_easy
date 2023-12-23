@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.swing">
+ <class name="TransactionDetails" table="TransactionDetails">
+  <id name="vehicleId" column="vehicleId"/>
+  <property name="mode" column="modeOfPayement"/>
+  <property name="amount"/>
+  <property name="numberPlate"/>
+  <property name="date"/>
+  <property name="time"/>
+ </class>
+</hibernate-mapping>

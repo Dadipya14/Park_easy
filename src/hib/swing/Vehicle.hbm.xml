@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.swing">
+ <class name="Vehicle" table="VehicleInfo">
+  <id name="vehicleId"/>
+  <property name="numberPlate"/>
+  <property name="type"/>
+  <property name="entryTime"/>
+  <property name="exitTime"/>
+  <property name="slotNum"/>
+ </class>
+</hibernate-mapping>
